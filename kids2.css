@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Yekan;
+    src: url(Yekan.ttf);
+}
+body{
+    font-family: yekan;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    background-color: #fed847;
+    padding: 20px ;
+    margin: 50px 20%;
+    border-radius: 20px;
+}
+ul li{
+    font-size: 20px;
+}
+
+.baner img{
+    width: 100%;
+}
+
+.category{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.category div{
+    width: 250px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
